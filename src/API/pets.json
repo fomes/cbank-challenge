@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Purrsloud",
+    "species": "Cat",
+    "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Barksalot",
+    "species": "Dog",
+    "photo": "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Meowsalot",
+    "species": "Cat",
+    "photo": "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Purrsloud",
+    "species": "Cat",
+    "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Barksalot",
+    "species": "Dog",
+    "photo": "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Meowsalot",
+    "species": "Cat",
+    "photo": "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
+  }
+]
