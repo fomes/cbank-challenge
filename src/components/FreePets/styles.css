@@ -1,3 +1,15 @@
 .img-pet {
+  width: 60px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.table-container {
+  width: 400px;
+}
+
+td {
   width: 100px;
 }
