@@ -21,9 +21,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764112/jungle_evdm47.jpg"
     },
     "age": 16,
-    "curious": true,
-    "favorite": false,
-    "available": false
+    "curious": true
   },
   {
     "id": "3",
@@ -34,9 +32,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764036/benji_rkg884.jpg"
     },
     "age": 20,
-    "curious": true,
-    "favorite": false,
-    "available": false
+    "curious": true
   },
   {
     "id": "4",
@@ -47,9 +43,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763988/beebee_oqtgld.jpg"
     },
     "age": 3,
-    "curious": true,
-    "favorite": false,
-    "available": false
+    "curious": true
   },
   {
     "id": "5",
@@ -60,9 +54,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764042/pillow_j9yenx.jpg"
     },
     "age": 13,
-    "curious": false,
-    "favorite": false,
-    "available": false
+    "curious": false
   },
   {
     "id": "6",
@@ -73,9 +65,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764293/buddy_oln5er.jpg"
     },
     "age": 18,
-    "curious": true,
-    "favorite": false,
-    "available": false
+    "curious": true
   },
   {
     "id": "7",
@@ -86,9 +76,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764180/mini_stjtkm.jpg"
     },
     "age": 1,
-    "curious": true,
-    "favorite": false,
-    "available": false
+    "curious": true
   },
   {
     "id": "8",
@@ -98,9 +86,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764387/thumbs/danton_tn_dg5hwl.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763990/danton_et1gql.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "9",
@@ -110,9 +96,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764387/thumbs/archy_tn_qlgg24.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763883/archy_yehmk9.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "10",
@@ -122,9 +106,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/otis_tn_lhim8b.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764030/otis_s6rnrm.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "11",
@@ -134,9 +116,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/luna_tn_ghpxtv.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763994/luna_zdqqlx.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "12",
@@ -146,9 +126,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764387/thumbs/canela_tn_qxvlai.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763877/canela_fwp5mm.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "13",
@@ -158,21 +136,17 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/mehla_tn_cxccvz.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764044/mehla_yvsqfb.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "14",
-    "name": "Rainier McCheddarton",
+    "name": "Rainier Mc",
     "weight": 70.4,
     "photo": {
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/rainier_tn_naxsxt.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763878/rainier_yeodlm.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "15",
@@ -182,9 +156,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/pax_tn_yhw1gz.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764041/pax_aj6wqh.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "16",
@@ -194,9 +166,7 @@
       "thumb": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764388/thumbs/lucie_tn_we1rji.jpg",
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763973/lucie_ro5isy.jpg"
     },
-    "good": true,
-    "favorite": false,
-    "available": false
+    "good": true
   },
   {
     "id": "17",
@@ -207,9 +177,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763985/lazer_yrwvzu.jpg"
     },
     "chill": 9,
-    "fast": true,
-    "favorite": false,
-    "available": false
+    "fast": true
   },
   {
     "id": "18",
@@ -220,9 +188,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764363/switchblade_emzkx3.jpg"
     },
     "chill": 10,
-    "fast": true,
-    "favorite": false,
-    "available": false
+    "fast": true
   },
   {
     "id": "19",
@@ -233,9 +199,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582763991/steve_w7mqee.jpg"
     },
     "chill": 6,
-    "fast": false,
-    "favorite": false,
-    "available": false
+    "fast": false
   },
   {
     "id": "20",
@@ -246,9 +210,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764104/pluto_sbdj3l.jpg"
     },
     "chill": 6,
-    "fast": false,
-    "favorite": false,
-    "available": false
+    "fast": false
   },
   {
     "id": "21",
@@ -259,9 +221,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764136/pip_o0snc2.jpg"
     },
     "favoriteFood": "carrots",
-    "floppy": 8,
-    "favorite": false,
-    "available": false
+    "floppy": 8
   },
   {
     "id": "22",
@@ -272,9 +232,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764027/sweetums_prsppm.jpg"
     },
     "favoriteFood": "lettuce",
-    "floppy": 9,
-    "favorite": false,
-    "available": false
+    "floppy": 9
   },
   {
     "id": "23",
@@ -285,9 +243,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764083/jerry_drpooy.jpg"
     },
     "favoriteFood": "spaghetti",
-    "floppy": 5,
-    "favorite": false,
-    "available": false
+    "floppy": 5
   },
   {
     "id": "24",
@@ -298,9 +254,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764178/jason_yzb3sg.jpg"
     },
     "favoriteFood": "carrots",
-    "floppy": 3,
-    "favorite": false,
-    "available": false
+    "floppy": 3
   },
   {
     "id": "25",
@@ -311,9 +265,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764163/peep_g42p7k.jpg"
     },
     "favoriteFood": "enchiladas",
-    "floppy": 10,
-    "favorite": false,
-    "available": false
+    "floppy": 10
   },
   {
     "id": "26",
@@ -324,9 +276,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764136/pip_o0snc2.jpg"
     },
     "favoriteFood": "carrots",
-    "floppy": 8,
-    "favorite": false,
-    "available": false
+    "floppy": 8
   },
   {
     "id": "27",
@@ -337,9 +287,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764027/sweetums_prsppm.jpg"
     },
     "favoriteFood": "lettuce",
-    "floppy": 9,
-    "favorite": false,
-    "available": false
+    "floppy": 9
   },
   {
     "id": "28",
@@ -350,9 +298,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764083/jerry_drpooy.jpg"
     },
     "favoriteFood": "spaghetti",
-    "floppy": 5,
-    "favorite": false,
-    "available": false
+    "floppy": 5
   },
   {
     "id": "29",
@@ -363,9 +309,7 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764178/jason_yzb3sg.jpg"
     },
     "favoriteFood": "carrots",
-    "floppy": 3,
-    "favorite": false,
-    "available": false
+    "floppy": 3
   },
   {
     "id": "30",
@@ -376,8 +320,6 @@
       "full": "https://res.cloudinary.com/hzrulbrds/image/upload/v1582764163/peep_g42p7k.jpg"
     },
     "favoriteFood": "enchiladas",
-    "floppy": 10,
-    "favorite": false,
-    "available": false
+    "floppy": 10
   }
 ]

@@ -1,9 +1,9 @@
-import { FreePets } from "../FreePets/FreePets";
+import { PetList } from "../FreePets/PetList";
 
 export function Home() {
   return (
     <>
-      <FreePets />
+      <PetList />
     </>
   );
 }

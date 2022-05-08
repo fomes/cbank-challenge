@@ -4,12 +4,13 @@
 
 .pointer {
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.td-info {
+  margin-top: 10px;
 }
 
 .table-container {
-  width: 400px;
-}
-
-td {
-  width: 100px;
+  width: 800px;
 }
