@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { Button, Card } from "react-bootstrap";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import MyContext from "../../Context/Context";
-import { iPet } from "../interfaces";
+import MyContext from "../../context/Context";
+import { iPet } from "../../interfaces";
 
 export function PetCard(props: any) {
   const { allPets, setAllPets } = useContext(MyContext);

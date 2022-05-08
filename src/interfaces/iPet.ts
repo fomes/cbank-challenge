@@ -7,6 +7,4 @@ export interface iPet {
   photo: {
     thumb: string;
   }
-  favorite: boolean,
-  available: boolean
 }
