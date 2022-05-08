@@ -10,9 +10,9 @@ import _ from "lodash";
 const pageSize = 10;
 
 export function FreePets() {
-  // const [allPets, setAllPets] = useState<iPet[]>([]);
   const { allPets, setAllPets } = useContext(MyContext);
   const { idPetCard, setIdPetCard } = useContext(MyContext);
+  const { favorites, setFavorites } = useContext(MyContext);
 
   const [pagesPets, setPagesPets] = useState<any>([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -20,12 +20,14 @@ export function FreePets() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/API/pets.json")
-      .then((resp) => resp.json())
-      .then((data) => {
-        setAllPets(data);
-        setPagesPets(_(data).slice(0).take(pageSize).value());
-      });
+    if (allPets.length == 0) {
+      fetch("/API/pets.json")
+        .then((resp) => resp.json())
+        .then((data) => {
+          setAllPets(data);
+          setPagesPets(_(data).slice(0).take(pageSize).value());
+        });
+    }
   }, []);
 
   const showPetCard = (id: number) => {
@@ -33,14 +35,30 @@ export function FreePets() {
     navigate("/card");
   };
 
-  const toggleFavorite = (id: number) => {};
+  const isFavorite = (id: number) => {
+    if (favorites.some((item: any) => item.id == id)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  const toggleFavorite = (id: number) => {
+    const newFavorite = allPets.filter((item: any) => item.id == id)[0];
+
+    if (isFavorite(id)) {
+      setFavorites(favorites.filter((item: any) => item.id !== id));
+    } else {
+      setFavorites((prev: any) => [...prev, newFavorite]);
+    }
+  };
 
   const pageCount = allPets ? Math.ceil(allPets.length / pageSize) : 0;
   if (pageCount === 1) return null;
 
   const pages = _.range(1, pageCount + 1);
 
-  const pagination = (pageNum: any) => {
+  const pagination = (pageNum: number) => {
     setCurrentPage(pageNum);
     const startIndex = (pageNum - 1) * pageSize;
     const paginatedPets = _(allPets).slice(startIndex).take(pageSize).value();
@@ -49,7 +67,6 @@ export function FreePets() {
 
   return (
     <>
-      <h3 className="">Animais Disponíveis</h3>
       <div className="table-container">
         <Table striped bordered hover size="sm" className="text-center">
           <thead>
@@ -76,11 +93,12 @@ export function FreePets() {
                 </td>
                 <td>
                   <h2>
-                    {
-                      pet.favorite === false
-                        ? <AiOutlineStar cursor={"pointer"} />
-                        : <AiFillStar cursor={"pointer"} />
-                    }                  
+                    <span
+                      className="pointer"
+                      onClick={() => toggleFavorite(pet.id)}
+                    >
+                      {isFavorite(pet.id) ? <AiFillStar /> : <AiOutlineStar />}
+                    </span>
                   </h2>
                 </td>
               </tr>
